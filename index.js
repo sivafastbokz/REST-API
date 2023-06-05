@@ -4,7 +4,7 @@ const port =3000;
 
 app.use(express.json());
 
-let users=['tony','stark','steve','chirs','nickk']
+let users=['tony','stark','steve','chirs','nickk','siva']
 
 app.get('/users',(req,res)=>{
     res.status(200).send(users);
